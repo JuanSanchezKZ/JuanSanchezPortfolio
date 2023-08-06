@@ -160,6 +160,11 @@ h3 {
     margin-bottom: var(--gutter-small);
 }
 
+svg {
+    width:75px;
+    
+}
+
 @media(max-width: 500px) {
     .heading-primary {
         font-size: var(--font-size-large);
@@ -654,4 +659,17 @@ form button {
 
 form button:hover {
     background: rgb(212, 77, 99);
+}
+
+.stack__content {
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    
+}
+
+.stack__content-row {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
 }
